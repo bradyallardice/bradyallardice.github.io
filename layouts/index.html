@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Layout options | Brady Allardice</title>
+  <meta name="robots" content="noindex">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f3f4f6; color: #1a1d23; font: 15px/1.55 system-ui, -apple-system, sans-serif; }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 48px 20px 80px; }
+    h1 { font-size: 28px; margin: 0 0 6px; }
+    .sub { color: #5b6270; margin: 0 0 36px; max-width: 46em; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 520px), 1fr)); gap: 28px; }
+    .card { background: #fff; border-radius: 14px; overflow: hidden; box-shadow: 0 1px 2px rgba(0,0,0,.06), 0 8px 24px -12px rgba(0,0,0,.15); display: flex; flex-direction: column; }
+    .card a.shot { display: block; aspect-ratio: 1280 / 900; overflow: hidden; border-bottom: 1px solid #e5e7eb; }
+    .card img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; transition: transform .3s; }
+    .card a.shot:hover img { transform: scale(1.02); }
+    .body { padding: 18px 22px 22px; }
+    .body h2 { font-size: 18px; margin: 0 0 4px; }
+    .body h2 span { color: #8a909b; font-weight: 500; margin-right: 6px; }
+    .body p { margin: 0 0 10px; color: #4a505b; }
+    .body .best { font-size: 13.5px; color: #6b7280; }
+    .open { display: inline-block; margin-top: 8px; font-weight: 600; color: #1f4e79; text-decoration: none; }
+    .open:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Choose a layout</h1>
+  <p class="sub">All four use the same content from the CV. Click a preview to open the full page, then resize the window to see the phone layout. Colors, fonts and sections can be mixed across options.</p>
+  <div class="grid">
+    <div class="card">
+      <a class="shot" href="a-sidebar.html"><img src="previews/a-sidebar.png" alt="Preview of layout A"></a>
+      <div class="body">
+        <h2><span>A</span>Classic Sidebar</h2>
+        <p>Photo, affiliation and links in a sticky left column; research, reports, talks and news on the right. Serif body, navy accent. Abstracts collapse behind toggles.</p>
+        <p class="best">The most common academic format (close to al-folio and academicpages). Familiar to hiring committees and easy to scan.</p>
+        <a class="open" href="a-sidebar.html">Open full page →</a>
+      </div>
+    </div>
+    <div class="card">
+      <a class="shot" href="b-minimal.html"><img src="previews/b-minimal.png" alt="Preview of layout B"></a>
+      <div class="body">
+        <h2><span>B</span>Minimal Scholar</h2>
+        <p>One narrow column in EB Garamond, small photo beside the name, small-caps section headings, <code>[abstract]</code> toggles. No decoration.</p>
+        <p class="best">The style of many economics and political science faculty pages. Loads instantly and reads like a document.</p>
+        <a class="open" href="b-minimal.html">Open full page →</a>
+      </div>
+    </div>
+    <div class="card">
+      <a class="shot" href="c-modern.html"><img src="previews/c-modern.png" alt="Preview of layout C"></a>
+      <div class="body">
+        <h2><span>C</span>Modern Research Profile</h2>
+        <p>Sticky top navigation, hero with large photo and buttons, research-field tags, paper cards with status badges, appointment timeline. Switches to dark mode with the visitor’s system setting.</p>
+        <p class="best">Suits the computational and AI side of your profile. Closest to a lab or industry-research page.</p>
+        <a class="open" href="c-modern.html">Open full page →</a>
+      </div>
+    </div>
+    <div class="card">
+      <a class="shot" href="d-editorial.html"><img src="previews/d-editorial.png" alt="Preview of layout D"></a>
+      <div class="body">
+        <h2><span>D</span>Editorial</h2>
+        <p>Journal-inspired: oversized serif name, one-sentence research statement, numbered sections (01 About, 02 Research, 03 Activity) on warm paper with a burgundy accent.</p>
+        <p class="best">The most distinctive of the four. Leads with the research question rather than the credentials.</p>
+        <a class="open" href="d-editorial.html">Open full page →</a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
