@@ -36,6 +36,10 @@ links:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/bradyall
+    label: GitHub
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/bradyallardice/
+    label: LinkedIn
   - icon: academicons/cv
     url: uploads/allardice_cv.pdf
     label: CV
