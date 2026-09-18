@@ -118,7 +118,7 @@ hugoblox:
     # Copyright notice - supports {year}, {name}, {license} placeholders
     notice: "© {year} {name}"
     license:
-      type: cc # cc | custom
+      type: none # cc | custom | none (no license badge in the footer)
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -241,7 +241,7 @@ hugoblox:
   # Regional formatting preferences
   # ────────────────────────────────────────────────────────────────────────────
   locale:
-    date_format: "Jan 2, 2006" # Go time format
+    date_format: "Jan 2006" # Go time format (month + year; the CV gives no exact days)
     time_format: "3:04 PM"
     address_format: en-us
 

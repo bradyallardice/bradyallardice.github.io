@@ -18,7 +18,9 @@ bio: |
   validation and large-scale embedding pipelines.
 
   In 2026 I was a visiting researcher at the University of Southern California, and
-  I am a member of the OpenAI Economic Research Exchange research team. Before the
+  I am a member of the OpenAI Economic Research Exchange research team. I will next
+  spend three months as a visiting researcher at Bocconi University, hosted by Piero
+  Stanig. Before the
   PhD, I worked as a data scientist at Paysafe and as a research associate at UC
   Riverside’s Center for Economic Forecasting and Development.
 
@@ -50,22 +52,26 @@ interests:
 # content/experience.md), so no month is shown that is not in the CV.
 education:
   - degree: PhD in Political and Social Sciences
+    year: "2024 – present"  # text shown on the home page
     institution: Universitat Pompeu Fabra & Institut Barcelona d’Estudis Internacionals (IBEI)
     start: 2024-01-01
     summary: |
       Dissertation: *The Contestation and Political Effects of Technological Change*.
       Supervisor: Aina Gallego. FI (Joan Oró) Predoctoral Fellowship.
   - degree: Master of Research in Political Science
+    year: "2023 – 2024"  # text shown on the home page
     institution: Universitat Pompeu Fabra
     start: 2023-01-01
     end: 2024-01-01
     summary: |
       GPA 9.27 / 10. Supervisors: Toni Rodon and Aina Gallego.
   - degree: M.Sc. in Economics
+    year: "2019 – 2020"  # text shown on the home page
     institution: Barcelona School of Economics
     start: 2019-01-01
     end: 2020-01-01
   - degree: B.Sc. in Economics
+    year: "2015 – 2018"  # text shown on the home page
     institution: Clemson University
     start: 2015-01-01
     end: 2018-01-01
