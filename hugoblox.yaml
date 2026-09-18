@@ -1,0 +1,11 @@
+build:
+  # Pinned to 0.161.1: with Hugo 0.162.0 the HugoBlox blox module (v0.0.0-20260527) fails to render
+  # any page that has `links` in its front matter ("assignment to entry in nil map" in
+  # functions/build_links.html). Tested locally 2026-09-18. Re-test before bumping.
+  hugo_version: '0.161.1'
+deploy:
+  # Deployment target: github-pages, netlify, vercel, cloudflare, or none
+  host: 'github-pages'
+template:
+  id: "academic-cv"
+  name: "Academic CV"

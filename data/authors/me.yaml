@@ -1,0 +1,138 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Brady Allardice
+  given: Brady
+  family: Allardice
+role: PhD Candidate in Political and Social Sciences
+bio: |
+  I am a PhD candidate in Political and Social Sciences at Universitat Pompeu Fabra
+  and the Institut Barcelona d’Estudis Internacionals (IBEI), supervised by Aina
+  Gallego, and an FI (Joan Oró) predoctoral fellow of the Generalitat de Catalunya.
+
+  My research studies the political economy of technological change: how automation
+  and artificial intelligence reshape work, and when those shocks do or do not
+  translate into voting, beliefs, and policy. I combine causal inference designs with
+  computational methods, including LLM-based text classification with human
+  validation and large-scale embedding pipelines.
+
+  In 2026 I was a visiting researcher at the University of Southern California, and
+  I am a member of the OpenAI Economic Research Exchange research team. Before the
+  PhD, I worked as a data scientist at Paysafe and as a research associate at UC
+  Riverside’s Center for Economic Forecasting and Development.
+
+affiliations:
+  - name: Universitat Pompeu Fabra
+    url: https://www.upf.edu/
+  - name: IBEI
+    url: https://www.ibei.org/
+
+links:
+  - icon: at-symbol
+    url: mailto:brady.allardice@upf.edu
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/bradyall
+  - icon: academicons/cv
+    url: uploads/allardice_cv.pdf
+    label: CV
+
+interests:
+  - Political Economy
+  - Technological Change
+  - Automation
+  - AI and Politics
+  - Computational Social Science
+
+# Dates: the CV gives years (or month ranges) only. Where only a year is known, the
+# date is set to January 1 and the site displays years only (see date_format in
+# content/experience.md), so no month is shown that is not in the CV.
+education:
+  - degree: PhD in Political and Social Sciences
+    institution: Universitat Pompeu Fabra & Institut Barcelona d’Estudis Internacionals (IBEI)
+    start: 2024-01-01
+    summary: |
+      Dissertation: *The Contestation and Political Effects of Technological Change*.
+      Supervisor: Aina Gallego. FI (Joan Oró) Predoctoral Fellowship.
+  - degree: Master of Research in Political Science
+    institution: Universitat Pompeu Fabra
+    start: 2023-01-01
+    end: 2024-01-01
+    summary: |
+      GPA 9.27 / 10. Supervisors: Toni Rodon and Aina Gallego.
+  - degree: M.Sc. in Economics
+    institution: Barcelona School of Economics
+    start: 2019-01-01
+    end: 2020-01-01
+  - degree: B.Sc. in Economics
+    institution: Clemson University
+    start: 2015-01-01
+    end: 2018-01-01
+    summary: |
+      Cum laude.
+
+experience:
+  - role: Research Team Member
+    org: OpenAI Economic Research Exchange
+    start: 2026-08-01
+    summary: |
+      *Collective Bargaining, Business AI Use, and Worker Adjustment under Generative AI*,
+      with Valentina González-Rostani and Paolo Agnolin.
+  - role: Visiting Researcher
+    org: University of Southern California
+    start: 2026-06-01
+    end: 2026-08-31
+    summary: |
+      Department of Political Science and International Relations. Host: Valentina González-Rostani.
+  - role: Data Scientist
+    org: Paysafe Group
+    location: Irvine, CA
+    start: 2022-01-01
+    end: 2023-01-01
+    summary: |
+      Designed and deployed NLP and machine learning systems for fraud detection and default
+      prediction. Built time-series forecasting models for merchant transaction metrics and
+      regulatory compliance.
+  - role: Senior Research Associate / Research Associate
+    org: UC Riverside, Center for Economic Forecasting and Development
+    location: Los Angeles, CA
+    start: 2021-01-01
+    end: 2022-01-01
+    summary: |
+      Built economic forecasting models and authored policy reports. Conducted spatial analysis
+      and data engineering for government clients at the state, county, and city level.
+
+skills:
+  - name: Causal Inference & Econometrics
+    items:
+      - label: Instrumental variables and shift-share designs
+      - label: Difference-in-differences and two-way fixed effects
+      - label: Panel data, mediation analysis, regression discontinuity
+  - name: Computational Social Science
+    items:
+      - label: LLM-based text classification with human validation
+      - label: Embedding-based semantic matching (FAISS, sentence-transformers)
+      - label: Occupation crosswalks (O*NET, ISCO, ESCO) and record linkage
+  - name: Programming
+    items:
+      - label: Python (primary), R, Stata, SQL
+      - label: PostgreSQL, AWS, Spark
+      - label: PyTorch, scikit-learn, statsmodels
+
+languages:
+  - name: English
+    level: 5
+    label: Native
+  - name: Spanish
+    level: 4
+    label: Professional working proficiency
+
+awards:
+  - title: FI (Joan Oró) Predoctoral Fellowship
+    awarder: Generalitat de Catalunya
+    icon: hero/academic-cap
+  - title: 3rd Place, Best Paper
+    awarder: UPF PhD Workshop Poster Competition
+    date: "2025-01-01"
+    icon: hero/trophy
