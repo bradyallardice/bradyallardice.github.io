@@ -43,7 +43,7 @@ Requires Hugo **extended 0.161.1**, Go, and Node 22 with pnpm:
 ```
 pnpm install
 hugo server
-# open http://localhost:1313/PersonalWebsite/
+# open http://localhost:1313/
 ```
 
 ## Deployment
@@ -51,7 +51,8 @@ hugo server
 1. Push `main` to GitHub.
 2. Repository **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 3. The `Deploy website to GitHub Pages` workflow builds and publishes the site to
-   `https://bradyallardice.github.io/PersonalWebsite/`.
+   `https://bradyallardice.github.io/` (the repository is named `bradyallardice.github.io`,
+   which GitHub serves at the root of the user domain).
 
 ## Notes
 

@@ -1,4 +1,4 @@
-module github.com/bradyallardice/PersonalWebsite
+module github.com/bradyallardice/bradyallardice.github.io
 
 go 1.19
 
