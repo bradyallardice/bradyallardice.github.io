@@ -23,6 +23,8 @@ sections:
     content:
       title: Awards & Fellowships
       username: me
+    design:
+      date_format: '2006'
   - block: resume-languages
     content:
       title: Languages
